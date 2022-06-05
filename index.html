@@ -18,26 +18,25 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container header__container"> 
-        <!-- TODO: CHANGE HEADER__CONTAINER -->
+      <div class="container container--flex"> 
         <a href="./index.html" class="logo header__logo" lang="en"
           >Web<span class="logo__header-headline">Studio</span></a
         >
         <nav>
-          <ul class="site-nav">
-            <!-- CHANGE SITE-NAV -->
-            <li class="site-nav__item">
-              <a class="site-nav__link site-nav__link--active" href="./index.html">Студия</a>
+          <ul class="navigation">
+            <!-- CHANGE navigation -->
+            <li class="navigation__item">
+              <a class="navigation__link navigation__link--active" href="./index.html">Студия</a>
             </li>
-            <li class="site-nav__item">
-              <a class="site-nav__link" href="./portfolio.html">Портфолио</a>
+            <li class="navigation__item">
+              <a class="navigation__link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="site-nav__item">
-              <a class="site-nav__link" href="./">Контакты</a>
+            <li class="navigation__item">
+              <a class="navigation__link" href="./">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -60,7 +59,7 @@
 
     <main>
       <section class="hero">
-        <div class="container hero__container">
+        <div class="container container--block">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
           <button class="btn" type="button" data-modal-open>
             Заказать услугу
